@@ -1,0 +1,24 @@
+{
+    "name": "first-vue-jest",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "test:unit": "vue-cli-service test:unit --watch",
+        "test:cov": "vue-cli-service test:unit --coverage"
+    },
+    "dependencies": {
+        "core-js": "^3.1.2",
+        "vue": "^2.6.10"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^4.0.0",
+        "@vue/cli-plugin-unit-jest": "^4.0.0",
+        "@vue/cli-service": "^4.0.0",
+        "@vue/test-utils": "1.0.0-beta.29",
+        "node-sass": "^4.12.0",
+        "sass-loader": "^8.0.0",
+        "vue-template-compiler": "^2.6.10"
+    }
+}
